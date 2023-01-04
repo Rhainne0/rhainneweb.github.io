@@ -176,7 +176,7 @@ body {
     margin: 5px;
 
     display: flex;
-    justify-content: center;
+    text-align: justify;
     z-index: 13;
 
     text-decoration: none;
@@ -186,8 +186,8 @@ body {
 }
 
 .content a:hover{
-    background-color: rgb(196, 196, 196);
-    color: #ff0000;
+    background-color: rgb(116, 116, 116);
+    color: #ffd900;
     border-radius: 20px;
 }
 
