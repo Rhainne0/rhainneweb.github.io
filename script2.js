@@ -1,6 +1,4 @@
 let LastImage = document.getElementsByClassName("focus2-img")[0];
-let MidImage = document.getElementsByClassName("bush1-img")[0];
-let FrontImage = document.getElementsByClassName("bush2-img")[0];
 let Historical = document.querySelector("#landing h1");
 let GREECE = document.querySelector("#landing h2");
 let Developer = document.querySelector("#landing h3");
