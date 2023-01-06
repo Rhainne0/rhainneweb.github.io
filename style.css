@@ -53,7 +53,7 @@ body {
 
 
 .hero {
-    width: 115%;
+    width: 100%;
     height: 100vh;
     position: relative;
     overflow: hidden;
@@ -114,18 +114,19 @@ body {
 }
 
 .focus-img {
-    width: fit-content;
+    right: 60px;
+    width: 100%;
     z-index: 4;
+}
 
+
+.last-img {
+    width: 50%;
+    justify-content: center;
     
 }
 
-.bush1-img {
-    z-index: 5;
-}
-.bush2-img {
-    z-index: 6;
-}
+
 
 .btn {
     position: absolute;
@@ -145,20 +146,21 @@ body {
     box-shadow: 5px 0 15px rgba(85, 85, 85, 0.8);
 }
 
-#landing::before {
-    content: '';
-    position: absolute;
-    bottom: -10%;
-    width: 115%;
-    height: 100%;
-    background: linear-gradient(to top, #444443, transparent);
-    z-index: 10;
-}
 
+
+/*
+#about {
+    position: center;
+    width: 100%;
+    min-height: 200px;
+    padding: 50px 0px;
+    line-height: 30px;
+    color: rgb(253, 228, 0);
+    background-color: #444444;
+}  */
 
 #about {
-    width: 115%;
-    padding: 70px 0;
+    padding: 50px 0;
     line-height: 30px;
     color: rgb(253, 228, 0);
     background-color: #444444;
@@ -168,13 +170,14 @@ body {
     z-index: 5;
     position: relative;
     text-align: center;
-    width: 80%; 
-    margin: 0;
-    padding: 40px 30px 30px 60px;
+    width: auto; 
+    margin: 90px;
+    padding: 50px 90px 60px 90px;
 
     background-color: #1d1b18;
     border-radius: 20px;
 }
+
 
 .content a {
     z-index: 7;
@@ -189,6 +192,7 @@ body {
 
 }
 .content hr {
+    padding-right: 70px;
     width: 80%;
     border: 1px solid #fff;
     text-align: center;
@@ -196,8 +200,9 @@ body {
 }
 
 .content p {
+    padding-right: 0px;
     text-align: justify;
-    text-indent: 100px;
+    text-indent: 50px;
 }
 
 

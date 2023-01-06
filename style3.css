@@ -163,8 +163,8 @@ body {
 }
 
 .content p {
-    text-align: justify;
-    width: 100%;
+    text-align: center;
+    width: auto;
 }
 
 
@@ -172,8 +172,8 @@ body {
 
 .content a {
     background-color: #ffe600;
-    right: 0px;
-    width: 60%;
+    right: 20px;
+    width: auto;
     padding: 5px 20px;
     border-radius: 20px;
     margin: 20px;
@@ -195,6 +195,9 @@ body {
 }
 
 
+.content p a {
+    padding-left: 115px;
+}
 
 
 .content2 {
@@ -214,7 +217,8 @@ body {
 .content2 h1 {
     font-size: 22px;
     text-indent: 0;
-    text-align: center3;
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 .content hr {
